@@ -6,7 +6,7 @@ before_script:
 - npm install
 
 script:
-- tsc --sourceMap ccd-ng2.ts
+- tsc --sourceMap --target 'ES6' ccd-ng2.ts
 deploy:
   provider: npm
   email: costa@codechem.com
