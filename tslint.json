@@ -4,9 +4,9 @@
 		"no-duplicate-variable": true,
 		"no-duplicate-key": true,
 		"no-unused-variable": true,
-		"curly": true,
+		"curly": false,
 		"class-name": true,
-		"semicolon": ["never"],
+		"semicolon": ["always", false],
 		"triple-equals": true
 	}
 }

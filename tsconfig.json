@@ -1,12 +1,17 @@
 {
     "compilerOptions": {
         "target": "es6",
+        "moduleResolution": "node",
         "module": "commonjs",
+        "declaration": true,
         "sourceMap": true,
         "experimentalDecorators": true
     },
+    "files": [
+        "ccd-ng2.ts"
+    ],
     "exclude": [
-        "node_modules",
-        "typings"
+        "node_modules/",
+        "typings/"
     ]
 }

@@ -2,10 +2,11 @@ language: node_js
 node_js:
 - '6'
 before_script:
+- npm install -g typescript typings
+- typings install
 - npm install
-
 script:
-- tsc --sourceMap --target 'ES6' ccd-ng2.ts
+- tsc -p .
 deploy:
   provider: npm
   email: costa@codechem.com
