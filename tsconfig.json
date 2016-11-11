@@ -7,11 +7,15 @@
         "sourceMap": true,
         "experimentalDecorators": true
     },
+    "include":[
+        "*.ts"
+    ],
     "files": [
-        "ccd-ng2.ts"
+        "ccd-ng2.ts",
+        "./typings/index.d.ts"
     ],
     "exclude": [
-        "node_modules/",
-        "typings/"
+        "node_modules",
+        "typings"
     ]
 }
