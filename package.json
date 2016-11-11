@@ -1,6 +1,6 @@
 {
   "name": "ccd-ng2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Class based web framework on top of Express that uses async await operators to simplify the controllers logic and promote writing clean, simple and maintainable web server",
   "main": "ccd-ng2.js",
   "types": "ccd-ng2.d.ts",
