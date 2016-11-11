@@ -1,0 +1,28 @@
+{
+  "name": "ccd-ng2",
+  "version": "1.0.1",
+  "description": "Class based web framework on top of Express that uses async await operators to simplify the controllers logic and promote writing clean, simple and maintainable web server",
+  "main": "ccd-ng2.js",
+  "types": "ccd-ng2.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codechem/ccd-ng2"
+  },
+  "keywords": [
+    "ccd",
+    "typescript",
+    "decorator",
+    "angular",
+    "angular2",
+    "node.js"
+  ],
+  "dependencies": {
+    "ccd":">=1.0.15",
+    "mkdirp":"*"
+  },
+  "author": "Code Chemistry",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^3.15.1"
+  }
+}
