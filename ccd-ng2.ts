@@ -64,8 +64,8 @@ export function ngSvcGen(outputDir: string, apply: boolean = true, name = null, 
     return function (constructor: any) {
         if (!apply)
             return constructor;
-        ensureDescriptorStore(constructor);;
         let ctrl = constructor.prototype as CCController;
+        ensureDescriptorStore(ctrl);
         let docDescriptor = new NgServiceCreatorDescriptor(constructor.name, outputDir);
         ctrl.__descriptors.addTo(NG_SVC_GROUP_NAME, InvokeOrder.LAST, docDescriptor);
         return constructor;
